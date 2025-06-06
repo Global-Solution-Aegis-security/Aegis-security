@@ -68,12 +68,12 @@ button:nth-of-type(2) {
 .container-caixa-consequencias article h3 {
     margin: 1rem 0 1rem 0;
     font-size: 2.2rem;
-    color: #494b4d;
+    color: #000000;
 }
  
 .container-caixa-consequencias article p {
-    font-size: 1.5rem;
-    color: #83878f;
+    font-size: 1.8rem;
+    color: #494949;
 }
  
 .terceiro-container {
@@ -98,54 +98,43 @@ button:nth-of-type(2) {
 .dentro-container-direita {
     background-color: #f0f0f0;
     border-radius: 1rem;
-    height: 50rem;
     padding: 1rem;
 }
  
 .dentro-container-esquerda h3 {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+
 }
  
 .dentro-container-esquerda p {
-    font-size: 1.5rem;
-    color: #363738;
-    margin: 1rem 0;
+    font-size: 2.5rem;
+    line-height: 1.6;
+    color: #1d1d1d;
 }
- 
-.check-informacoes div {
+
+.dentro-container-esquerda h4 {
+    font-size: 3rem;
+    color: #d80000;
+    margin-top: 4rem;
+
+}
+
+.dentro-container-esquerda {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start; /* <- muda de center para flex-start */
+    padding: 2rem;
 }
- 
-.check-informacoes div img {
-    width: 2rem;
+
+.dentro-container-direita img {
+    width: 100%; 
+    height: auto;
+    border-radius: 1rem; 
+    object-fit: contain; 
 }
- 
-.check-informacoes div p {
-    font-size: 1.3rem;
-    margin-left: .3rem;
-    color: #494b4d;
-}
- 
-.btn-experimentar-bot {
-    margin-top: 5%;
-    display: flex;
-    justify-content: center
-}
- 
-.btn-experimentar-bot button {
-    padding: 1.5rem;
-    border: none;
-    background-color: #0da1e5;
-    color: #fff;
-    border-radius: 1rem;
-}
- 
-.btn-experimentar-bot button:hover {
-    transform: translateY(-5%);
-    transition: ease .5s;
-    cursor: pointer;
-}
+
+
  
 @media (max-width: 530px) {
  
@@ -160,11 +149,11 @@ button:nth-of-type(2) {
         margin: .5rem 0;
     }
  
-    .container-caixinhas-problema {
+    .container-caixa-consequencias {
         flex-direction: column;
     }
  
-    .container-caixinhas-problema article {
+    .container-caixa-consequencias article {
         width: 100%;
         margin: 1rem 0;
     }
@@ -182,5 +171,33 @@ button:nth-of-type(2) {
     .dentro-container-esquerda {
         margin-bottom: 3rem;
     }
+
+    .dentro-container-esquerda h3 {
+    font-size: 2.2rem;
+    text-align: center;
+    }
+
+    .dentro-container-esquerda p {
+        font-size: 1.6rem;
+        text-align: justify;
+    }
+
+    .dentro-container-esquerda h4 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .dentro-container-direita img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .dentro-container-esquerda {
+        padding: 1rem;
+    }
+    
+    .dentro-container {
+    gap: 2rem;
+    }
+
 }
- 
