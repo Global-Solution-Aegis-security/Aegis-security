@@ -1,3 +1,10 @@
+body {
+  background-color: #e6d6fd; /* Fundo geral roxo claro */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
     margin-top: 12rem;
     font-size: 3rem;
@@ -10,77 +17,102 @@ main p {
     margin-bottom: 4rem;
 }
  
-.container-cards {
+.container-equipe {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+  
 }
  
-.card {
-    background: #fff;
-    border-radius: 1.2rem;
-    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding-bottom: 2rem;
-    position: relative;
-    width: 32%;
+.equipe {
+  background: #917cd8;
+  border: 2px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  width: 300px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conteudo-equipe {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: center;
 }
  
-.card:hover {
-    border: 1px solid rgb(169, 169, 169);
-    background-color: rgb(235, 235, 235);
-}
- 
-.card-header {
-    height: 6.5rem;
-    background: linear-gradient(to right, #0077c2, #00aaff);
-    border-top-left-radius: 1.2rem;
-    border-top-right-radius: 1.2rem;
-}
- 
-.card-avatar {
-    width: 8rem;
-    height: 8rem;
-    background: #ccc;
+.equipe-avatar {
+    width: 180px;
+    height: 180px;
+    background-color: white;
     border-radius: 50%;
-    border: .3rem solid #fff;
-    position: absolute;
-    top: 3rem;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto 1rem auto;
+    overflow: hidden;
 }
  
-.card-avatar img {
+.equipe-avatar img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 50%;
 }
- 
-.card h3 {
-    margin-top: 6rem;
-    font-size: 1.8rem;
+
+.equipe h3 {
+    margin: 1rem 0 0.5rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 2.5rem;
 }
  
-.subtitulo-card {
-    color: #0077c2;
-    font-weight: bold;
-    margin-bottom: 1rem;
+.subtitulo-equipe {
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
 }
  
 .descricao {
-    font-size: 1.4rem;
-    padding: 0 1.2rem;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    margin: 2rem;
+    color: black;
+    text-align: center;
 }
  
-.icones-card {
-    margin: 2rem 0;
+.icones-equipe {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding-top: 2rem;
 }
+
  
-.icones-card a {
-    margin: 0 .5rem;
-    display: inline-block;
+.icones-equipe a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  transition: transform 0.2s ease-in-out;
 }
- 
+
+.icones-equipe img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.icones-equipe a:hover {
+  transform: scale(1.1);
+}
+
 .nossa-missao {
     background-color: #fff;
     margin-top: 4rem;
