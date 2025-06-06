@@ -1,0 +1,119 @@
+h2 {
+    margin-top: 12rem;
+    font-size: 3rem;
+    text-align: center;
+}
+ 
+main p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+ 
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.card {
+    background: #fff;
+    border-radius: 1.2rem;
+    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 2rem;
+    position: relative;
+    width: 32%;
+}
+ 
+.card:hover {
+    border: 1px solid rgb(169, 169, 169);
+    background-color: rgb(235, 235, 235);
+}
+ 
+.card-header {
+    height: 6.5rem;
+    background: linear-gradient(to right, #0077c2, #00aaff);
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
+ 
+.card-avatar {
+    width: 8rem;
+    height: 8rem;
+    background: #ccc;
+    border-radius: 50%;
+    border: .3rem solid #fff;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ 
+.card-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+ 
+.card h3 {
+    margin-top: 6rem;
+    font-size: 1.8rem;
+}
+ 
+.subtitulo-card {
+    color: #0077c2;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+ 
+.descricao {
+    font-size: 1.4rem;
+    padding: 0 1.2rem;
+}
+ 
+.icones-card {
+    margin: 2rem 0;
+}
+ 
+.icones-card a {
+    margin: 0 .5rem;
+    display: inline-block;
+}
+ 
+.nossa-missao {
+    background-color: #fff;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    padding: 3rem 3rem 1rem 3rem;
+    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.1);
+}
+ 
+.nossa-missao h3 {
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+}
+ 
+.nossa-missao p {
+    text-align: start;
+    font-size: 1.6rem;
+}
+ 
+.icone-github,
+.icone-linkedin,
+.icone-email {
+    width: 3rem;
+    height: 3rem;
+}
+ 
+@media (max-width: 850px) {
+    .container-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .card {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
