@@ -1,0 +1,167 @@
+main {
+    margin: 0 20%;
+}
+
+h2 {
+    margin-top: 12rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+.subtitulo-main {
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #4a4a4a;
+    margin-top: 1rem;
+}
+
+.container-aegius-bot {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header-aegius-bot {
+    background-color: #8c8adb;
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-aegius-bot img {
+    width: 4rem;
+}
+
+.header-aegius-bot h3 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+.header-aegius-bot span {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+}
+
+.msgs-aegius-bot {
+    padding: 2rem;
+    overflow-y: auto;
+    height: 38rem;
+    background-color: #fdfcff;
+    border: 1px solid #d1d1d1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.p-msg-bot,
+.t-msg-bot,
+.qui-msg-bot {
+    background-color: #ece3ff;
+    padding: 1rem 1.4rem;
+    border-radius: 1rem 1rem 1rem 0.5rem;
+    max-width: 80%;
+    font-size: 1.3rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.s-msg-bot,
+.q-msg-bot {
+    background-color: #5f5f5f;
+    padding: 1rem 1.4rem;
+    border-radius: 1rem 1rem 0.5rem 1rem;
+    max-width: 70%;
+    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.linha-msg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enviar-msg-aegius-bot {
+    padding: 1rem;
+    border: 1px solid #d1d1d1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.escrever-msg {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: 1px solid #d1d1d1;
+    font-size: 1.1rem;
+}
+
+.escrever-msg:focus {
+    outline: 2px solid #8c8adb;
+}
+
+.btn-enviar-msg {
+    background-color: #8c8adb;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: 1px solid #d1d1d1;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar-msg:hover {
+    background-color: #8c8adb;
+}
+
+.btn-enviar-msg img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+@media (max-width: 850px) {
+    footer {
+        margin-top: 12.7rem;
+    }
+
+    main {
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        margin-top: 18.7rem;
+    }
+
+    .msgs-aegius-bot {
+        height: 30rem;
+    }
+
+    h2 {
+        font-size: 2.3rem;
+    }
+
+    .subtitulo-main {
+        font-size: 1.2rem;
+    }
+
+    .header-aegius-bot h3 {
+        font-size: 1.3rem;
+    }
+}
