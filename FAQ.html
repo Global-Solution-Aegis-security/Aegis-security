@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/padrao.css" />
+  <link rel="stylesheet" href="styles/faq.css" />
+  <title>FAQ</title>
+</head>
+ 
+<body>
+    <header>
+        <nav>
+            <div>
+                <img class="icone-header" src="icons/inicio/icone-header-logo.png" alt="Ícone do menu de navegação" />
+                <h1>Aegis Security</h1>
+            </div>
+            <ul id="menu-links">
+                <li><a href="index.html" class="link-menu-ativado link-suave">Início</a></li>
+                <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
+                <li><a href="demo_bot.html" class="link-suave">Bot Aegius</a></li>
+                <li><a href="cidades_mais_impactadas.html" class="link-suave">Cidades mais impacatdas</a></li>
+                <li><a href="faq.html" class="link-suave">FAQ</a></li>
+                <li><a href="contato.html" class="link-suave">Contato</a></li>
+            </ul>
+
+            <div onclick="abrirMenu()" class="menu-hamburguer">
+                <img src="icons/inicio/menu-header.png" alt="Menu de links">
+            </div>
+
+
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="perguntas-frequentes">
+            <h2>Dúvidas Frequentes</h2>
+            <p class="subtitulo-section">
+                Respostas para as perguntas mais frequentes sobre nossa solução
+            </p>
+ 
+            <div class="container-perguntas-frequentes">
+ 
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        O que este chatbot faz?
+                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        Este chatbot oferece informações e orientações em tempo real para ajudar você a se proteger durante desastres naturais, como enchentes, deslizamentos e tempestades.
+                </div>
+            </div>
+ 
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Em que tipos de desastre o chatbot pode ajudar?
+                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        Atualmente, oferecemos suporte para enchentes, deslizamentos de terra, tempestades severas, secas, queimadas e, com menor frequência, terremotos.
+                    </div>
+                </div>
+ 
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Como o chatbot sabe se estou em perigo?
+                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        Utilizamos dados meteorológicos, geográficos e alertas da Defesa Civil para identificar riscos na sua região e emitir avisos personalizados.
+                    </div>
+                </div>
+ 
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        O que fazer se estiver em uma área de risco?
+                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        O chatbot pode informar os abrigos mais próximos, enviar dicas de evacuação segura, notificar sobre rotas bloqueadas ou perigosas, além de avisar sobre pontos de apoio e resgate.
+                    </div>
+                </div>
+ 
+                <div class="faq-item">
+                    <div class="pergunta" role="button">
+                        Quem criou este chatbot?
+                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
+                            alt="Icone seta de abertura para resposta" />
+                    </div>
+                    <div class="resposta">
+                        Este chatbot foi desenvolvido por uma equipe de estudantes com o objetivo de ajudar a reduzir os impactos de desastres naturais por meio da tecnologia.
+                    </div>
+                </div>
+ 
+                <div class="container-ainda-duvidas">
+                    <h3>Para mais dúvidas?</h3>
+                    <button data-href="contato.html">Contate-nos</button>
+                </div>
+ 
+            </div>
+        </section>
+    </main>
+  
+    <footer>
+        <p>Copyright © 2025 Aegius Security | Todos os direitos reservados</p>
+        <p>Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000 | Empresa parceira com o grupo FIAP.</p>
+    </footer>
+    <script src="js/faq.js"></script>    
+    <script src="js/padrao.js"></script>
+</body>
+ 
+</html>
