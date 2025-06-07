@@ -134,34 +134,204 @@ h2 {
     height: 1.2rem;
 }
 
-@media (max-width: 850px) {
-    footer {
-        margin-top: 12.7rem;
+@media (max-width: 600px) {
+    .seletor-da-sua-logo-grande {
+        display: none;
+    }
+    header {
+        padding: 0.5rem 1rem;
+        position: relative;
+    }
+    header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    header nav div:first-of-type {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    header nav .icone-header {
+        width: 45px;
+        height: auto;
+    }
+    header nav h1 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .menu-hamburguer {
+        display: block;
+        cursor: pointer;
+    }
+    .menu-hamburguer img {
+        width: 35px;
+    }
+    nav ul#menu-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #8c8adb;
+        padding: 1.5rem 0;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    nav ul#menu-links.mostrar {
+        display: flex;
+    }
+    nav ul#menu-links li a {
+        font-size: 1.4rem;
+        color: #ffffff;
+        font-weight: bold;
     }
 
     main {
-        margin: 0 10%;
-    }
-}
-
-@media (max-width: 700px) {
-    footer {
-        margin-top: 18.7rem;
-    }
-
-    .msgs-aegius-bot {
-        height: 30rem;
+        margin: 0 5%;
     }
 
     h2 {
-        font-size: 2.3rem;
+        margin-top: 100px;
+        font-size: 2rem;
     }
 
     .subtitulo-main {
         font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .container-aegius-bot {
+        padding: 1rem;
+    }
+
+    .header-aegius-bot {
+        padding: 1rem;
     }
 
     .header-aegius-bot h3 {
+        font-size: 1.2rem;
+    }
+
+    .msgs-aegius-bot {
+        height: 35rem;
+        padding: 1rem;
+    }
+
+    .p-msg-bot,
+    .t-msg-bot,
+    .qui-msg-bot,
+    .s-msg-bot,
+    .q-msg-bot {
+        font-size: 1.1rem;
+        max-width: 90%;
+    }
+
+    .escrever-msg {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    header nav ul#menu-links {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+    
+    header nav ul#menu-links a {
+        font-size: 1.1rem;
+    }
+
+    main {
+        margin: 0 15%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .subtitulo-main {
+        font-size: 1.5rem;
+    }
+
+    .header-aegius-bot h3 {
+        font-size: 1.4rem;
+    }
+
+    .msgs-aegius-bot {
+        height: 38rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    header nav ul#menu-links {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    header nav ul#menu-links a {
         font-size: 1.3rem;
+    }
+
+    main {
+        margin: 0 20%;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .subtitulo-main {
+        font-size: 1.8rem;
+    }
+
+    .header-aegius-bot h3 {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    header nav ul#menu-links {
+        display: flex;
+        align-items: center;
+        gap: 1.8rem;
+    }
+    
+    header nav ul#menu-links a {
+        font-size: 1.5rem;
+    }
+
+    main {
+        margin: 0 20%;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .subtitulo-main {
+        font-size: 2rem;
+    }
+
+    .header-aegius-bot h3 {
+        font-size: 1.6rem;
     }
 }

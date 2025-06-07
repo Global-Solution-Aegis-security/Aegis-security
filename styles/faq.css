@@ -99,3 +99,252 @@ h2 {
     cursor: pointer;
     font-size: 1.5rem;
 }
+@media (max-width: 600px) {
+    .seletor-da-sua-logo-grande {
+        display: none;
+    }
+    header {
+        padding: 0.5rem 1rem;
+        position: relative;
+    }
+    header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    header nav div:first-of-type {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    header nav .icone-header {
+        width: 45px;
+        height: auto;
+    }
+    header nav h1 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .menu-hamburguer {
+        display: block;
+        cursor: pointer;
+    }
+    .menu-hamburguer img {
+        width: 35px;
+    }
+    nav ul#menu-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #8c8adb;
+        padding: 1.5rem 0;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    nav ul#menu-links.mostrar {
+        display: flex;
+    }
+    nav ul#menu-links li a {
+        font-size: 1.4rem;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    #perguntas-frequentes {
+        padding: 3rem 1rem;
+    }
+
+    h2 {
+        margin-top: 80px;
+        font-size: 2rem;
+    }
+
+    .subtitulo-section {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
+
+    .container-perguntas-frequentes {
+        padding: 0;
+    }
+
+    .pergunta {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .resposta {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .container-ainda-duvidas {
+        padding: 1.5rem;
+    }
+
+    .container-ainda-duvidas h3 {
+        font-size: 1.8rem;
+    }
+
+    .container-ainda-duvidas button {
+        padding: 1.2rem;
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    header nav ul#menu-links {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+    
+    header nav ul#menu-links a {
+        font-size: 1.1rem;
+    }
+
+    #perguntas-frequentes {
+        padding: 4rem 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .subtitulo-section {
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .container-perguntas-frequentes {
+        width: 90%;
+    }
+
+    .pergunta {
+        padding: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .resposta {
+        font-size: 1.4rem;
+        padding: 1.2rem;
+    }
+
+    .container-ainda-duvidas h3 {
+        font-size: 2rem;
+    }
+
+    .container-ainda-duvidas button {
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    header nav ul#menu-links {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    header nav ul#menu-links a {
+        font-size: 1.3rem;
+    }
+
+    #perguntas-frequentes {
+        padding: 5rem 3rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .subtitulo-section {
+        font-size: 1.8rem;
+    }
+
+    .container-perguntas-frequentes {
+        width: 80%;
+    }
+
+    .pergunta {
+        padding: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .resposta {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+    
+    .container-ainda-duvidas h3 {
+        font-size: 2.1rem;
+    }
+
+    .container-ainda-duvidas button {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    header nav ul#menu-links {
+        display: flex;
+        align-items: center;
+        gap: 1.8rem;
+    }
+    
+    header nav ul#menu-links a {
+        font-size: 1.5rem;
+    }
+
+    #perguntas-frequentes {
+        padding: 5rem 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .subtitulo-section {
+        font-size: 2rem;
+    }
+
+    .container-perguntas-frequentes {
+        width: 70%;
+    }
+
+    .pergunta {
+        padding: 1.5rem 2rem;
+        font-size: 1.7rem;
+    }
+
+    .resposta {
+        font-size: 1.6rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .container-ainda-duvidas h3 {
+        font-size: 2.3rem;
+    }
+
+    .container-ainda-duvidas button {
+        font-size: 1.5rem;
+    }
+}
