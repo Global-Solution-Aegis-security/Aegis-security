@@ -1,32 +1,32 @@
 h2 {
-    margin-top: 11rem;
-    font-size: 3rem;
-    text-align: center;
-    color: #000000;
+  margin-top: 11rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #000000;
 }
- 
+
 section p {
-    font-size: 1.6rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    padding: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
- 
+
 .contato {
-    display: flex;
-    padding: 1rem;
-    justify-content: center;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
 }
- 
+
 .area-entrar-contato {
-    width: 100%;
-    max-width: 800px;
-    flex: 1;
-    background-color: #f7eaff;
-    border-radius: .1rem;
-    box-shadow: 0 5px 20px rgba(75, 0, 130, 0.15);
-    padding: 3rem;
-    border: 1px solid #d7b5f3;
+  width: 100%;
+  max-width: 800px;
+  flex: 1;
+  background-color: #f7eaff;
+  border-radius: 0.1rem;
+  box-shadow: 0 5px 20px rgba(75, 0, 130, 0.15);
+  padding: 3rem;
+  border: 1px solid #d7b5f3;
 }
 
 .area-entrar-contato h3 {
@@ -35,271 +35,271 @@ section p {
   color: #000000;
   text-align: center;
 }
- 
+
 .campo {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
 }
 
 .campo label {
   font-size: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   color: #000000;
 }
- 
+
 .erro {
-    margin-left: .3rem;
-    font-size: 1.3rem;
-    color: red;
+  margin-left: 0.3rem;
+  font-size: 1.3rem;
+  color: red;
 }
- 
+
 .area-entrar-contato h3 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
- 
+
 .area-entrar-contato input,
 textarea {
-    border-radius: .5rem;
-    width: 100%;
-    border-radius: .5rem;
-    border: 1px solid #c9a3e4;
-    padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #c9a3e4;
+  padding: 1rem;
 }
- 
+
 .area-entrar-contato button {
-    padding: .8rem;
-    width: 100%;
-    border-radius: .5rem;
-    border: 1px solid #b7b7b7;
-    background-color: #8c8adb;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
+  padding: 0.8rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #b7b7b7;
+  background-color: #8c8adb;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
 }
- 
+
 textarea {
-    resize: none;
-    height: 10rem;
+  resize: none;
+  height: 10rem;
 }
- 
+
 .nome,
 .email,
 .assunto,
 .mensagem {
-    font-size: 1.5rem;
-    color: #494b4d;
+  font-size: 1.5rem;
+  color: #494b4d;
 }
- 
+
 @media (max-width: 600px) {
-    .seletor-da-sua-logo-grande {
-        display: none;
-    }
-    header {
-        padding: 0.5rem 1rem;
-        position: relative;
-    }
-    header nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-    header nav div:first-of-type {
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;
-    }
-    header nav .icone-header {
-        width: 45px;
-        height: auto;
-    }
-    header nav h1 {
-        font-size: 1.3rem;
-        margin: 0;
-    }
-    .menu-hamburguer {
-        display: block;
-        cursor: pointer;
-    }
-    .menu-hamburguer img {
-        width: 35px;
-    }
-    nav ul#menu-links {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #8c8adb;
-        padding: 1.5rem 0;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    nav ul#menu-links.mostrar {
-        display: flex;
-    }
-    nav ul#menu-links li a {
-        font-size: 1.4rem;
-        color: #ffffff;
-        font-weight: bold;
-    }
+  .seletor-da-sua-logo-grande {
+    display: none;
+  }
+  header {
+    padding: 0.5rem 1rem;
+    position: relative;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  header nav div:first-of-type {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  header nav .icone-header {
+    width: 45px;
+    height: auto;
+  }
+  header nav h1 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .menu-hamburguer {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-hamburguer img {
+    width: 35px;
+  }
+  nav ul#menu-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #8c8adb;
+    padding: 1.5rem 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  nav ul#menu-links.mostrar {
+    display: flex;
+  }
+  nav ul#menu-links li a {
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
 
-    h2 {
-        margin-top: 40px;
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-    }
+  h2 {
+    margin-top: 40px;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
 
-    section p {
-        font-size: 1.2rem;
-        padding: 0 1rem;
-    }
+  section p {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
 
-    .contato {
-        padding: 0 1rem;
-    }
+  .contato {
+    padding: 0 1rem;
+  }
 
-    .area-entrar-contato {
-        padding: 1.5rem;
-    }
+  .area-entrar-contato {
+    padding: 1.5rem;
+  }
 
-    .area-entrar-contato h3 {
-        font-size: 1.8rem;
-    }
+  .area-entrar-contato h3 {
+    font-size: 1.8rem;
+  }
 
-    .campo label {
-        font-size: 1.2rem;
-    }
+  .campo label {
+    font-size: 1.2rem;
+  }
 
-    .area-entrar-contato input,
-    textarea {
-        padding: 0.8rem;
-    }
+  .area-entrar-contato input,
+  textarea {
+    padding: 0.8rem;
+  }
 }
 @media (min-width: 601px) and (max-width: 767px) {
-    .menu-hamburguer {
-        display: none;
-    }
+  .menu-hamburguer {
+    display: none;
+  }
 
-    header nav ul#menu-links {
-        display: flex;
-        align-items: center;
-        gap: 1.2rem;
-    }
-    
-    header nav ul#menu-links a {
-        font-size: 1.1rem;
-    }
+  header nav ul#menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
 
-    h2 {
-        font-size: 2.5rem;
-    }
+  header nav ul#menu-links a {
+    font-size: 1.1rem;
+  }
 
-    section p {
-        font-size: 1.4rem;
-        padding: 0 2rem;
-    }
+  h2 {
+    font-size: 2.5rem;
+  }
 
-    .contato {
-        padding: 0 2rem;
-    }
+  section p {
+    font-size: 1.4rem;
+    padding: 0 2rem;
+  }
 
-    .area-entrar-contato {
-        padding: 2rem;
-    }
+  .contato {
+    padding: 0 2rem;
+  }
 
-    .area-entrar-contato h3 {
-        font-size: 2rem;
-    }
+  .area-entrar-contato {
+    padding: 2rem;
+  }
 
-    .campo label {
-        font-size: 1.3rem;
-    }
+  .area-entrar-contato h3 {
+    font-size: 2rem;
+  }
+
+  .campo label {
+    font-size: 1.3rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .menu-hamburguer {
-        display: none;
-    }
+  .menu-hamburguer {
+    display: none;
+  }
 
-    header nav ul#menu-links {
-        display: flex;
-        align-items: center;
-        gap: 1.5rem;
-    }
-    
-    header nav ul#menu-links a {
-        font-size: 1.3rem;
-    }
+  header nav ul#menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
 
-    h2 {
-        font-size: 2.8rem;
-    }
+  header nav ul#menu-links a {
+    font-size: 1rem;
+  }
 
-    section p {
-        font-size: 1.5rem;
-        padding: 0 3rem;
-    }
+  h2 {
+    font-size: 2.8rem;
+  }
 
-    .contato {
-        padding: 0 3rem;
-    }
+  section p {
+    font-size: 1.5rem;
+    padding: 0 3rem;
+  }
 
-    .area-entrar-contato {
-        padding: 2.5rem;
-    }
+  .contato {
+    padding: 0 3rem;
+  }
 
-    .area-entrar-contato h3 {
-        font-size: 2.2rem;
-    }
+  .area-entrar-contato {
+    padding: 2.5rem;
+  }
 
-    .campo label {
-        font-size: 1.4rem;
-    }
+  .area-entrar-contato h3 {
+    font-size: 2.2rem;
+  }
+
+  .campo label {
+    font-size: 1.4rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1299px) {
-    .menu-hamburguer {
-        display: none;
-    }
+  .menu-hamburguer {
+    display: none;
+  }
 
-    header nav ul#menu-links {
-        display: flex;
-        align-items: center;
-        gap: 1.8rem;
-    }
-    
-    header nav ul#menu-links a {
-        font-size: 1.5rem;
-    }
+  header nav ul#menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+  }
 
-    h2 {
-        font-size: 3rem;
-    }
+  header nav ul#menu-links a {
+    font-size: 1.5rem;
+  }
 
-    section p {
-        font-size: 1.6rem;
-        padding: 0 4rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
 
-    .contato {
-        padding: 0 4rem;
-    }
+  section p {
+    font-size: 1.6rem;
+    padding: 0 4rem;
+  }
 
-    .area-entrar-contato {
-        padding: 3rem;
-    }
+  .contato {
+    padding: 0 4rem;
+  }
 
-    .area-entrar-contato h3 {
-        font-size: 2.2rem;
-    }
+  .area-entrar-contato {
+    padding: 3rem;
+  }
 
-    .campo label {
-        font-size: 1.5rem;
-    }
+  .area-entrar-contato h3 {
+    font-size: 2.2rem;
+  }
+
+  .campo label {
+    font-size: 1.5rem;
+  }
 }

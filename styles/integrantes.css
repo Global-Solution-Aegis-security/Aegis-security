@@ -1,31 +1,30 @@
 body {
-  background-color: #e6d6fd; 
+  background-color: #e6d6fd;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h2 {
-    margin-top: 12rem;
-    font-size: 3rem;
-    text-align: center;
+  margin-top: 12rem;
+  font-size: 3rem;
+  text-align: center;
 }
- 
+
 main p {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
 }
- 
+
 .container-equipe {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    padding: 2rem;
-  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
 }
- 
+
 .equipe {
   background: #917cd8;
   border: 2px solid black;
@@ -46,45 +45,45 @@ main p {
   justify-content: flex-start;
   justify-content: space-between;
 }
- 
+
 .equipe-avatar {
-    width: 180px;
-    height: 180px;
-    background-color: white;
-    border-radius: 50%;
-    margin: 0 auto 1rem auto;
-    overflow: hidden;
+  width: 180px;
+  height: 180px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  overflow: hidden;
 }
- 
+
 .equipe-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .equipe h3 {
-    margin: 1rem 0 0.5rem 0;
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
-    padding-bottom: 2.5rem;
+  margin: 1rem 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 2.5rem;
 }
- 
+
 .subtitulo-equipe {
-    color: black;
-    font-size: 1.5rem;
-    margin: 0;
+  color: black;
+  font-size: 1.5rem;
+  margin: 0;
 }
- 
+
 .descricao {
-    font-size: 1.5rem;
-    padding: 0 0.5rem;
-    margin: 2rem 0;
-    color: black;
-    text-align: center;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+  margin: 2rem 0;
+  color: black;
+  text-align: center;
 }
- 
+
 .icones-equipe {
   margin-top: auto;
   display: flex;
@@ -94,7 +93,6 @@ main p {
   padding-top: 2rem;
 }
 
- 
 .icones-equipe a {
   display: flex;
   justify-content: center;
@@ -115,283 +113,283 @@ main p {
 }
 
 .nossa-missao {
-    background-color: #fff;
-    margin-top: 4rem;
-    border-radius: 1rem;
-    padding: 3rem 3rem 1rem 3rem;
-    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  padding: 3rem 3rem 1rem 3rem;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
 }
- 
+
 .nossa-missao h3 {
-    font-size: 2.1rem;
-    margin-bottom: 2rem;
+  font-size: 2.1rem;
+  margin-bottom: 2rem;
 }
- 
+
 .nossa-missao p {
-    text-align: start;
-    font-size: 1.6rem;
+  text-align: start;
+  font-size: 1.6rem;
 }
- 
+
 .icone-github,
 .icone-linkedin,
 .icone-email {
-    width: 3rem;
-    height: 3rem;
+  width: 3rem;
+  height: 3rem;
 }
- 
+
 @media (max-width: 600px) {
-    .seletor-da-sua-logo-grande {
-        display: none;
-    }
-    header {
-        padding: 0.5rem 1rem;
-        position: relative;
-    }
-    header nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-    header nav div:first-of-type {
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;
-    }
-    header nav .icone-header {
-        width: 45px;
-        height: auto;
-    }
-    header nav h1 {
-        font-size: 1.3rem;
-        margin: 0;
-    }
-    .menu-hamburguer {
-        display: block;
-        cursor: pointer;
-    }
-    .menu-hamburguer img {
-        width: 35px;
-    }
-    nav ul#menu-links {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #8c8adb;
-        padding: 1.5rem 0;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    nav ul#menu-links.mostrar {
-        display: flex;
-    }
-    nav ul#menu-links li a {
-        font-size: 1.4rem;
-        color: #ffffff;
-        font-weight: bold;
-    }
+  .seletor-da-sua-logo-grande {
+    display: none;
+  }
+  header {
+    padding: 0.5rem 1rem;
+    position: relative;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  header nav div:first-of-type {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  header nav .icone-header {
+    width: 45px;
+    height: auto;
+  }
+  header nav h1 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .menu-hamburguer {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-hamburguer img {
+    width: 35px;
+  }
+  nav ul#menu-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #8c8adb;
+    padding: 1.5rem 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  nav ul#menu-links.mostrar {
+    display: flex;
+  }
+  nav ul#menu-links li a {
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
 
-    h2 {
-        margin-top: 80px;
-        font-size: 2.2rem;
-    }
+  h2 {
+    margin-top: 80px;
+    font-size: 2.2rem;
+  }
 
-    main p {
-        font-size: 1.3rem;
-        margin-bottom: 3rem;
-    }
+  main p {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
 
-    .container-equipe {
-        padding: 0 1rem;
-    }
+  .container-equipe {
+    padding: 0 1rem;
+  }
 
-    .equipe {
-        width: 100%;
-        min-height: auto;
-        padding: 1.5rem;
-    }
+  .equipe {
+    width: 100%;
+    min-height: auto;
+    padding: 1.5rem;
+  }
 
-    .equipe-avatar {
-        width: 150px;
-        height: 150px;
-    }
+  .equipe-avatar {
+    width: 150px;
+    height: 150px;
+  }
 
-    .equipe h3 {
-        font-size: 1.8rem;
-        padding-bottom: 1.5rem;
-    }
+  .equipe h3 {
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
+  }
 
-    .subtitulo-equipe {
-        font-size: 1.2rem;
-    }
+  .subtitulo-equipe {
+    font-size: 1.2rem;
+  }
 
-    .descricao {
-        font-size: 1.3rem;
-        margin: 1.5rem 0;
-    }
+  .descricao {
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+  }
 
-    .icones-equipe {
-        padding-top: 1.5rem;
-    }
+  .icones-equipe {
+    padding-top: 1.5rem;
+  }
 
-    .nossa-missao {
-        padding: 2rem;
-    }
+  .nossa-missao {
+    padding: 2rem;
+  }
 
-    .nossa-missao h3 {
-        font-size: 1.8rem;
-    }
+  .nossa-missao h3 {
+    font-size: 1.8rem;
+  }
 
-    .nossa-missao p {
-        text-align: justify;
-        font-size: 1.3rem;
-    }
+  .nossa-missao p {
+    text-align: justify;
+    font-size: 1.3rem;
+  }
 }
 @media (min-width: 601px) and (max-width: 767px) {
-    .menu-hamburguer {
-        display: none;
-    }
+  .menu-hamburguer {
+    display: none;
+  }
 
-    header nav ul#menu-links {
-        display: flex;
-        align-items: center;
-        gap: 1.2rem;
-    }
-    
-    header nav ul#menu-links a {
-        font-size: 1.1rem;
-    }
+  header nav ul#menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
 
-    h2 {
-        font-size: 2.5rem;
-        margin-top: 10rem;
-    }
+  header nav ul#menu-links a {
+    font-size: 1.1rem;
+  }
 
-    main p {
-        font-size: 1.4rem;
-    }
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 10rem;
+  }
 
-    .container-equipe {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
-        padding: 2rem;
-    }
+  main p {
+    font-size: 1.4rem;
+  }
 
-    .equipe {
-        width: 45%;
-        min-height: 580px;
-    }
+  .container-equipe {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
 
-    .equipe h3 {
-        font-size: 1.6rem;
-    }
+  .equipe {
+    width: 45%;
+    min-height: 580px;
+  }
 
-    .subtitulo-equipe,
-    .descricao {
-        font-size: 1.2rem;
-    }
+  .equipe h3 {
+    font-size: 1.6rem;
+  }
 
-    .nossa-missao {
-        margin: 4rem 2rem 0 2rem;
-        padding: 2.5rem;
-    }
+  .subtitulo-equipe,
+  .descricao {
+    font-size: 1.2rem;
+  }
+
+  .nossa-missao {
+    margin: 4rem 2rem 0 2rem;
+    padding: 2.5rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .menu-hamburguer {
-        display: none;
-    }
+  .menu-hamburguer {
+    display: none;
+  }
 
-    header nav ul#menu-links {
-        display: flex;
-        align-items: center;
-        gap: 1.5rem;
-    }
-    
-    header nav ul#menu-links a {
-        font-size: 1.3rem;
-    }
+  header nav ul#menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
 
-    h2 {
-        font-size: 2.8rem;
-    }
+  header nav ul#menu-links a {
+    font-size: 1rem;
+  }
 
-    .container-equipe {
-        flex-direction: row;
-        flex-wrap: nowrap; 
-        justify-content: center;
-        padding: 2rem;
-    }
+  h2 {
+    font-size: 2.8rem;
+  }
 
-    .equipe {
-        width: 30%; 
-        min-height: 600px;
-    }
+  .container-equipe {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 2rem;
+  }
 
-    .equipe h3 {
-        font-size: 1.8rem;
-    }
+  .equipe {
+    width: 30%;
+    min-height: 600px;
+  }
 
-    .subtitulo-equipe,
-    .descricao {
-        font-size: 1.3rem;
-    }
+  .equipe h3 {
+    font-size: 1.8rem;
+  }
 
-    .nossa-missao {
-        margin: 4rem 3rem 0 3rem;
-        padding: 3rem;
-    }
+  .subtitulo-equipe,
+  .descricao {
+    font-size: 1.3rem;
+  }
+
+  .nossa-missao {
+    margin: 4rem 3rem 0 3rem;
+    padding: 3rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1299px) {
-    .menu-hamburguer {
-        display: none;
-    }
+  .menu-hamburguer {
+    display: none;
+  }
 
-    header nav ul#menu-links {
-        display: flex;
-        align-items: center;
-        gap: 1.8rem;
-    }
-    
-    header nav ul#menu-links a {
-        font-size: 1.5rem;
-    }
+  header nav ul#menu-links {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+  }
 
-    h2 {
-        font-size: 3rem;
-    }
+  header nav ul#menu-links a {
+    font-size: 1.5rem;
+  }
 
-    .container-equipe {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        padding: 2rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
 
-    .equipe {
-        width: 31%;
-        min-height: 600px;
-    }
+  .container-equipe {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 2rem;
+  }
 
-    .equipe h3 {
-        font-size: 2rem;
-    }
+  .equipe {
+    width: 31%;
+    min-height: 600px;
+  }
 
-    .subtitulo-equipe,
-    .descricao {
-        font-size: 1.4rem;
-    }
+  .equipe h3 {
+    font-size: 2rem;
+  }
 
-    .nossa-missao {
-        margin: 4rem 4rem 0 4rem;
-        padding: 3.5rem;
-    }
+  .subtitulo-equipe,
+  .descricao {
+    font-size: 1.4rem;
+  }
+
+  .nossa-missao {
+    margin: 4rem 4rem 0 4rem;
+    padding: 3.5rem;
+  }
 }

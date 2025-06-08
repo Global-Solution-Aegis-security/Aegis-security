@@ -1,549 +1,655 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/padrao.css" />
-  <link rel="stylesheet" href="styles/cidades.css" />
-  <title>Cidades mais impacatdas</title>
-</head>
- 
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/padrao.css" />
+    <link rel="stylesheet" href="styles/cidades.css" />
+    <title>Cidades mais impacatdas</title>
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <div>
-                <img class="icone-header" src="icons/inicio/icone-header-logo.png" alt="Ícone do menu de navegação" />
-                <h1>Aegis Security</h1>
-            </div>
-            <ul id="menu-links">
-                <li><a href="index.html" class="link-menu-ativado link-suave">Início</a></li>
-                <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
-                <li><a href="bot_Aegius.html" class="link-suave">Bot Aegius</a></li>
-                <li><a href="cidades_mais_impactadas.html" class="link-suave">Cidades mais impactadas</a></li>
-                <li><a href="faq.html" class="link-suave">FAQ</a></li>
-                <li><a href="contato.html" class="link-suave">Contato</a></li>
-            </ul>
+      <nav>
+        <div>
+          <img
+            class="icone-header"
+            src="icons/inicio/icone-header-logo.png"
+            alt="Ícone do menu de navegação"
+          />
+          <h1>Aegis Security</h1>
+        </div>
+        <ul id="menu-links">
+          <li>
+            <a href="index.html" class="link-menu-ativado link-suave">Início</a>
+          </li>
+          <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
+          <li><a href="bot_Aegis.html" class="link-suave">Bot Aegis</a></li>
+          <li>
+            <a href="cidades_mais_impactadas.html" class="link-suave"
+              >Cidades mais impactadas</a
+            >
+          </li>
+          <li><a href="faq.html" class="link-suave">FAQ</a></li>
+          <li><a href="contato.html" class="link-suave">Contato</a></li>
+        </ul>
 
-            <div onclick="abrirMenu()" class="menu-hamburguer">
-                <img src="icons/inicio/menu.png" alt="Menu de links">
-            </div>
-
-
-
-        </nav>
+        <div onclick="abrirMenu()" class="menu-hamburguer">
+          <img src="icons/inicio/menu.png" alt="Menu de links" />
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section id="cidades_mais_impactadas">
-            <h2>Cidades mais afetadas</h2>
-            <p class="subtitulo-section">
-                Listamos as 5 cidades mais afetadas por alagamentos em cada estado.
-            </p>
- 
-            <div class="container-estado">
- 
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Acre
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        🚨 <strong>ATENÇÃO</strong> 🚨
-                        <p>As cidades do Acre com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Rio Branco</li>
-                            <li>Senador Guiomard</li>
-                            <li>Plácido de Castro</li>
-                            <li>Assis Brasil</li>
-                            <li>Brasiléia</li>
-                        </ul>
-                    </div>   
-                </div>
- 
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Alagoas
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Alagoas com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Maceió</li>
-                            <li>Arapiraca</li>
-                            <li>Palmeira dos Índios</li>
-                            <li>Rio Largo</li>
-                            <li>Delmiro Gouveia</li>
-                        </ul>
-                    </div>
-                </div>
- 
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Amapá
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Amapá com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Macapá</li>
-                            <li>Santana</li>
-                            <li>Laranjal do Jari</li>
-                            <li>Oiapoque</li>
-                            <li>Mazagão</li>
-                        </ul>
-                    </div>
-                </div>
- 
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Amazonas
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Amazonas com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Manaus</li>
-                            <li>Itacoatiara</li>
-                            <li>Parintins</li>
-                            <li>Coari</li>
-                            <li>Tefé</li>
-                        </ul>
-                    </div>
-                </div>
- 
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Bahia
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades da Bahia com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Salvador</li>
-                            <li>Feira de Santana</li>
-                            <li>Vitória da Conquista</li>
-                            <li>Ilhéus</li>
-                            <li>Jequié</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                 <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Ceará
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Ceará com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Fortaleza</li>
-                            <li>Sobral</li>
-                            <li>Juazeiro do Norte</li>
-                            <li>Crato</li>
-                            <li>Maracanaú</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Distrito Federal
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Distrito Federal com mais chances de enchente são:</p>
-                        <ul>
-                            <li>São Sebastião</li>
-                            <li>Vicente Pires</li>
-                            <li>Riacho Fundo I</li>
-                            <li>Arniqueira</li>
-                        </ul>
-                    </div>
-                </div>           
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Espírito Santo
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Espírito Santo com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Vitória</li>
-                            <li>Vila Velha</li>
-                            <li>Cariacica</li>
-                            <li>Serra</li>
-                            <li>Cachoeiro de Itapemirim</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Goiás
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Goiás com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Goiânia</li>
-                            <li>Anápolis</li>
-                            <li>Luziânia</li>
-                            <li>Águas Lindas de Goiás</li>
-                            <li>Aparecida de Goiânia</li>
-                        </ul>
-                    </div>
-                </div>     
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Maranhão
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Maranhão com mais chances de enchente são:</p>
-                        <ul>
-                            <li>São Luís</li>
-                            <li>Imperatriz</li>
-                            <li>Bacabal</li>
-                            <li>Caxias</li>
-                            <li>Timon</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Mato Grosso
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Mato Grosso com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Cuiabá</li>
-                            <li>Rondonópolis</li>
-                            <li>Várzea Grande</li>
-                            <li>Sinop</li>
-                            <li>Cáceres</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Mato Grosso do Sul
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Mato Grosso do Sul com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Campo Grande</li>
-                            <li>Dourados</li>
-                            <li>Corumbá</li>
-                            <li>Três Lagoas</li>
-                            <li>Ponta Porã</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Minas Gerais
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Minas Gerais com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Belo Horizonte</li>
-                            <li>Governador Valadares</li>
-                            <li>Juiz de Fora</li>
-                            <li>Ipatinga</li>
-                            <li>Uberlândia</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Pará
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Pará com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Belém</li>
-                            <li>Santarém</li>
-                            <li>Marabá</li>
-                            <li>Altamira</li>
-                            <li>Ananindeua</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Paraíba
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades da Paraíba com mais chances de enchente são:</p>
-                        <ul>
-                            <li>João Pessoa</li>
-                            <li>Campina Grande</li>
-                            <li>Patos</li>
-                            <li>Santa Rita</li>
-                            <li>Bayeux</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Paraná
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Paraná com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Curitiba</li>
-                            <li>Londrina</li>
-                            <li>Maringá</li>
-                            <li>Ponta Grossa</li>
-                            <li>Cascavel</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Pernambuco
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Pernambuco com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Recife</li>
-                            <li>Jaboatão dos Guararapes</li>
-                            <li>Olinda</li>
-                            <li>Paulista</li>
-                            <li>Caruaru</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Piauí
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Piauí com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Teresina</li>
-                            <li>Parnaíba</li>
-                            <li>Picos</li>
-                            <li>Floriano</li>
-                            <li>Piripiri</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Rio de Janeiro
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Rio de Janeiro com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Rio de Janeiro</li>
-                            <li>Niterói</li>
-                            <li>Duque de Caxias</li>
-                            <li>Nova Iguaçu</li>
-                            <li>Petrópolis</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Rio Grande do Norte
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Rio Grande do Norte com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Natal</li>
-                            <li>Mossoró</li>
-                            <li>Parnamirim</li>
-                            <li>Caicó</li>
-                            <li>Currais Novos</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Rio Grande do Sul
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Rio Grande do Sul com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Porto Alegre</li>
-                            <li>Canoas</li>
-                            <li>Novo Hamburgo</li>
-                            <li>São Leopoldo</li>
-                            <li>Pelotas</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Rondônia
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Rondônia com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Porto Velho</li>
-                            <li>Ji-Paraná</li>
-                            <li>Ariquemes</li>
-                            <li>Cacoal</li>
-                            <li>Vilhena</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Roraima
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Roraima com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Boa Vista</li>
-                            <li>Rorainópolis</li>
-                            <li>Caracaraí</li>
-                            <li>Mucajaí</li>
-                            <li>Alto Alegre</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Santa Catarina
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Santa Catarina com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Blumenau</li>
-                            <li>Joinville</li>
-                            <li>Itajaí</li>
-                            <li>Florianópolis</li>
-                            <li>Brusque</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        São Paulo
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de São Paulo com mais chances de enchente são:</p>
-                        <ul>
-                            <li>São Paulo</li>
-                            <li>Campinas</li>
-                            <li>Santos</li>
-                            <li>São Bernardo do Campo</li>
-                            <li>Guarulhos</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Sergipe
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades de Sergipe com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Aracaju</li>
-                            <li>Nossa Senhora do Socorro</li>
-                            <li>Lagarto</li>
-                            <li>Itabaiana</li>
-                            <li>Estância</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="cidade-item">
-                    <div class="pergunta" role="button">
-                        Tocantins
-                        <img src="icons/inicio/faq/icone-setinha-faq.jpg" class="seta"
-                            alt="Icone seta de abertura para resposta" />
-                    </div>
-                    <div class="resposta">
-                        <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
-                        <p>As cidades do Tocantins com mais chances de enchente são:</p>
-                        <ul>
-                            <li>Palmas</li>
-                            <li>Araguaína</li>
-                            <li>Gurupi</li>
-                            <li>Porto Nacional</li>
-                            <li>Paraíso do Tocantins</li>
-                        </ul>
-                    </div>
-                </div>
-                
+      <section id="cidades_mais_impactadas">
+        <h2>Cidades mais afetadas</h2>
+        <p class="subtitulo-section">
+          Listamos as 5 cidades mais afetadas por alagamentos em cada estado.
+        </p>
+
+        <div class="container-estado">
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Acre
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
             </div>
-        </section>
+            <div class="resposta">
+              🚨 <strong>ATENÇÃO</strong> 🚨
+              <p>As cidades do Acre com mais chances de enchente são:</p>
+              <ul>
+                <li>Rio Branco</li>
+                <li>Senador Guiomard</li>
+                <li>Plácido de Castro</li>
+                <li>Assis Brasil</li>
+                <li>Brasiléia</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Alagoas
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades de Alagoas com mais chances de enchente são:</p>
+              <ul>
+                <li>Maceió</li>
+                <li>Arapiraca</li>
+                <li>Palmeira dos Índios</li>
+                <li>Rio Largo</li>
+                <li>Delmiro Gouveia</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Amapá
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Amapá com mais chances de enchente são:</p>
+              <ul>
+                <li>Macapá</li>
+                <li>Santana</li>
+                <li>Laranjal do Jari</li>
+                <li>Oiapoque</li>
+                <li>Mazagão</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Amazonas
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Amazonas com mais chances de enchente são:</p>
+              <ul>
+                <li>Manaus</li>
+                <li>Itacoatiara</li>
+                <li>Parintins</li>
+                <li>Coari</li>
+                <li>Tefé</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Bahia
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades da Bahia com mais chances de enchente são:</p>
+              <ul>
+                <li>Salvador</li>
+                <li>Feira de Santana</li>
+                <li>Vitória da Conquista</li>
+                <li>Ilhéus</li>
+                <li>Jequié</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Ceará
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Ceará com mais chances de enchente são:</p>
+              <ul>
+                <li>Fortaleza</li>
+                <li>Sobral</li>
+                <li>Juazeiro do Norte</li>
+                <li>Crato</li>
+                <li>Maracanaú</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Distrito Federal
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades do Distrito Federal com mais chances de enchente são:
+              </p>
+              <ul>
+                <li>São Sebastião</li>
+                <li>Vicente Pires</li>
+                <li>Riacho Fundo I</li>
+                <li>Arniqueira</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Espírito Santo
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades do Espírito Santo com mais chances de enchente são:
+              </p>
+              <ul>
+                <li>Vitória</li>
+                <li>Vila Velha</li>
+                <li>Cariacica</li>
+                <li>Serra</li>
+                <li>Cachoeiro de Itapemirim</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Goiás
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades de Goiás com mais chances de enchente são:</p>
+              <ul>
+                <li>Goiânia</li>
+                <li>Anápolis</li>
+                <li>Luziânia</li>
+                <li>Águas Lindas de Goiás</li>
+                <li>Aparecida de Goiânia</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Maranhão
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Maranhão com mais chances de enchente são:</p>
+              <ul>
+                <li>São Luís</li>
+                <li>Imperatriz</li>
+                <li>Bacabal</li>
+                <li>Caxias</li>
+                <li>Timon</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Mato Grosso
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Mato Grosso com mais chances de enchente são:</p>
+              <ul>
+                <li>Cuiabá</li>
+                <li>Rondonópolis</li>
+                <li>Várzea Grande</li>
+                <li>Sinop</li>
+                <li>Cáceres</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Mato Grosso do Sul
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades do Mato Grosso do Sul com mais chances de enchente
+                são:
+              </p>
+              <ul>
+                <li>Campo Grande</li>
+                <li>Dourados</li>
+                <li>Corumbá</li>
+                <li>Três Lagoas</li>
+                <li>Ponta Porã</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Minas Gerais
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades de Minas Gerais com mais chances de enchente são:
+              </p>
+              <ul>
+                <li>Belo Horizonte</li>
+                <li>Governador Valadares</li>
+                <li>Juiz de Fora</li>
+                <li>Ipatinga</li>
+                <li>Uberlândia</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Pará
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Pará com mais chances de enchente são:</p>
+              <ul>
+                <li>Belém</li>
+                <li>Santarém</li>
+                <li>Marabá</li>
+                <li>Altamira</li>
+                <li>Ananindeua</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Paraíba
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades da Paraíba com mais chances de enchente são:</p>
+              <ul>
+                <li>João Pessoa</li>
+                <li>Campina Grande</li>
+                <li>Patos</li>
+                <li>Santa Rita</li>
+                <li>Bayeux</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Paraná
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Paraná com mais chances de enchente são:</p>
+              <ul>
+                <li>Curitiba</li>
+                <li>Londrina</li>
+                <li>Maringá</li>
+                <li>Ponta Grossa</li>
+                <li>Cascavel</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Pernambuco
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades de Pernambuco com mais chances de enchente são:</p>
+              <ul>
+                <li>Recife</li>
+                <li>Jaboatão dos Guararapes</li>
+                <li>Olinda</li>
+                <li>Paulista</li>
+                <li>Caruaru</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Piauí
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Piauí com mais chances de enchente são:</p>
+              <ul>
+                <li>Teresina</li>
+                <li>Parnaíba</li>
+                <li>Picos</li>
+                <li>Floriano</li>
+                <li>Piripiri</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Rio de Janeiro
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades do Rio de Janeiro com mais chances de enchente são:
+              </p>
+              <ul>
+                <li>Rio de Janeiro</li>
+                <li>Niterói</li>
+                <li>Duque de Caxias</li>
+                <li>Nova Iguaçu</li>
+                <li>Petrópolis</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Rio Grande do Norte
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades do Rio Grande do Norte com mais chances de enchente
+                são:
+              </p>
+              <ul>
+                <li>Natal</li>
+                <li>Mossoró</li>
+                <li>Parnamirim</li>
+                <li>Caicó</li>
+                <li>Currais Novos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Rio Grande do Sul
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades do Rio Grande do Sul com mais chances de enchente
+                são:
+              </p>
+              <ul>
+                <li>Porto Alegre</li>
+                <li>Canoas</li>
+                <li>Novo Hamburgo</li>
+                <li>São Leopoldo</li>
+                <li>Pelotas</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Rondônia
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades de Rondônia com mais chances de enchente são:</p>
+              <ul>
+                <li>Porto Velho</li>
+                <li>Ji-Paraná</li>
+                <li>Ariquemes</li>
+                <li>Cacoal</li>
+                <li>Vilhena</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Roraima
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades de Roraima com mais chances de enchente são:</p>
+              <ul>
+                <li>Boa Vista</li>
+                <li>Rorainópolis</li>
+                <li>Caracaraí</li>
+                <li>Mucajaí</li>
+                <li>Alto Alegre</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Santa Catarina
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>
+                As cidades de Santa Catarina com mais chances de enchente são:
+              </p>
+              <ul>
+                <li>Blumenau</li>
+                <li>Joinville</li>
+                <li>Itajaí</li>
+                <li>Florianópolis</li>
+                <li>Brusque</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              São Paulo
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades de São Paulo com mais chances de enchente são:</p>
+              <ul>
+                <li>São Paulo</li>
+                <li>Campinas</li>
+                <li>Santos</li>
+                <li>São Bernardo do Campo</li>
+                <li>Guarulhos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Sergipe
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades de Sergipe com mais chances de enchente são:</p>
+              <ul>
+                <li>Aracaju</li>
+                <li>Nossa Senhora do Socorro</li>
+                <li>Lagarto</li>
+                <li>Itabaiana</li>
+                <li>Estância</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cidade-item">
+            <div class="pergunta" role="button">
+              Tocantins
+              <img
+                src="icons/inicio/faq/icone-setinha-faq.jpg"
+                class="seta"
+                alt="Icone seta de abertura para resposta"
+              />
+            </div>
+            <div class="resposta">
+              <p>🚨 <strong>ATENÇÃO</strong> 🚨</p>
+              <p>As cidades do Tocantins com mais chances de enchente são:</p>
+              <ul>
+                <li>Palmas</li>
+                <li>Araguaína</li>
+                <li>Gurupi</li>
+                <li>Porto Nacional</li>
+                <li>Paraíso do Tocantins</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-  
+
     <footer>
-        <p>Copyright © 2025 Aegius Security | Todos os direitos reservados</p>
-        <p>Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000 | Empresa parceira com o grupo FIAP.</p>
+      <p>Copyright © 2025 Aegis Security | Todos os direitos reservados</p>
+      <p>
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000 |
+        Empresa parceira com o grupo FIAP.
+      </p>
     </footer>
-    <script src="js/cidades.js"></script>    
+    <script src="js/cidades.js"></script>
     <script src="js/padrao.js"></script>
-</body>
- 
+  </body>
 </html>

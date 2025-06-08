@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/padrao.css" />
-  <link rel="stylesheet" href="styles/contato.css" />
-  <title>Contato</title>
-</head>
- 
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/padrao.css" />
+    <link rel="stylesheet" href="styles/contato.css" />
+    <title>Contato</title>
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <div>
-                <img class="icone-header" src="icons/inicio/icone-header-logo.png" alt="Ícone do menu de navegação" />
-                <h1>Aegis Security</h1>
-            </div>
-            <ul id="menu-links">
-                <li><a href="index.html" class="link-menu-ativado link-suave">Início</a></li>
-                <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
-                <li><a href="bot_Aegius.html" class="link-suave">Bot Aegius</a></li>
-                <li><a href="cidades_mais_impactadas.html" class="link-suave">Cidades mais impactadas</a></li>
-                <li><a href="faq.html" class="link-suave">FAQ</a></li>
-                <li><a href="contato.html" class="link-suave">Contato</a></li>
-            </ul>
+      <nav>
+        <div>
+          <img
+            class="icone-header"
+            src="icons/inicio/icone-header-logo.png"
+            alt="Ícone do menu de navegação"
+          />
+          <h1>Aegis Security</h1>
+        </div>
+        <ul id="menu-links">
+          <li>
+            <a href="index.html" class="link-menu-ativado link-suave">Início</a>
+          </li>
+          <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
+          <li><a href="bot_Aegis.html" class="link-suave">Bot Aegis</a></li>
+          <li>
+            <a href="cidades_mais_impactadas.html" class="link-suave"
+              >Cidades mais impactadas</a
+            >
+          </li>
+          <li><a href="faq.html" class="link-suave">FAQ</a></li>
+          <li><a href="contato.html" class="link-suave">Contato</a></li>
+        </ul>
 
-            <div onclick="abrirMenu()" class="menu-hamburguer">
-                <img src="icons/inicio/menu.png" alt="Menu de links">
-            </div>
-
-        </nav>
+        <div onclick="abrirMenu()" class="menu-hamburguer">
+          <img src="icons/inicio/menu.png" alt="Menu de links" />
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="section">
-        <h2>Fale conosco </h2>
-        <p>Estamos prontos para tirar dúvidas e apresentar como nosso chatbot pode otimizar a comunicação e a tomada de decisões em situações de desastres naturais.</p>
+      <section class="section">
+        <h2>Fale conosco</h2>
+        <p>
+          Estamos prontos para tirar dúvidas e apresentar como nosso chatbot
+          pode otimizar a comunicação e a tomada de decisões em situações de
+          desastres naturais.
+        </p>
         <div class="contato">
-            <div class="area-entrar-contato">
-                <h3>Envie uma Mensagem</h3>
-    
-                <form onsubmit="return validarFormulario()">
-                    <div class="campo">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" onblur="validarNome()">
-                        <small class="erro" id="erro-nome"></small>
-                    </div>
-        
-                    <div class="campo">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" onblur="validarEmail()">
-                        <small class="erro" id="erro-email"></small>
-                    </div>
-        
-                    <div class="campo">
-                        <label for="assunto">Assunto</label>
-                        <input type="text" id="assunto" onblur="validarAssunto()">
-                        <small class="erro" id="erro-assunto"></small>
-                    </div>
-        
-                    <div class="campo">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem" onblur="validarMensagem()"></textarea>
-                        <small class="erro" id="erro-mensagem"></small>
-                    </div>
-    
-                    <button type="submit">Enviar Mensagem</button>
-                </form>
-    
-            </div>
+          <div class="area-entrar-contato">
+            <h3>Envie uma Mensagem</h3>
+
+            <form onsubmit="return validarFormulario()">
+              <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" onblur="validarNome()" />
+                <small class="erro" id="erro-nome"></small>
+              </div>
+
+              <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" onblur="validarEmail()" />
+                <small class="erro" id="erro-email"></small>
+              </div>
+
+              <div class="campo">
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" onblur="validarAssunto()" />
+                <small class="erro" id="erro-assunto"></small>
+              </div>
+
+              <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" onblur="validarMensagem()"></textarea>
+                <small class="erro" id="erro-mensagem"></small>
+              </div>
+
+              <button type="submit">Enviar Mensagem</button>
+            </form>
+          </div>
         </div>
-        </section>
-  </main>
- 
-  <footer>
-    <p>Copyright © 2025 Aegius Security | Todos os direitos reservados</p>
-    <p>Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000 | Empresa parceira com o grupo FIAP.</p>
-  </footer>
- 
-  <script src="js/contato.js"></script>
-  <script src="js/padrao.js"></script>
-</body>
- 
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © 2025 Aegis Security | Todos os direitos reservados</p>
+      <p>
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000 |
+        Empresa parceira com o grupo FIAP.
+      </p>
+    </footer>
+
+    <script src="js/contato.js"></script>
+    <script src="js/padrao.js"></script>
+  </body>
 </html>

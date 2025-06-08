@@ -1,144 +1,238 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/padrao.css" />
-  <link rel="stylesheet" href="styles/integrantes.css" />
-  <title>Integrantes</title>
-</head>
- 
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/padrao.css" />
+    <link rel="stylesheet" href="styles/integrantes.css" />
+    <title>Integrantes</title>
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <div>
-                <img class="icone-header" src="icons/inicio/icone-header-logo.png" alt="Ícone do menu de navegação" />
-                <h1>Aegis Security</h1>
-            </div>
-            <ul id="menu-links">
-                <li><a href="index.html" class="link-menu-ativado link-suave">Início</a></li>
-                <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
-                <li><a href="bot_Aegius.html" class="link-suave">Bot Aegius</a></li>
-                <li><a href="cidades_mais_impactadas.html" class="link-suave">Cidades mais impactadas</a></li>
-                <li><a href="faq.html" class="link-suave">FAQ</a></li>
-                <li><a href="contato.html" class="link-suave">Contato</a></li>
-            </ul>
-
-            <div onclick="abrirMenu()" class="menu-hamburguer">
-                <img src="icons/inicio/menu.png" alt="Menu de links">
-            </div>
-
-
-
-        </nav>
-    </header>
- 
-  <main>
-    <section aria-labelledby="integrantes">
-      <h2 id="titulo-integrantes">Nossa Equipe</h2>
-
-      <div class="container-equipe">
-  <article class="equipe">
-    <div class="conteudo-equipe">
-      <div class="equipe-header"></div>
-      <div class="equipe-avatar">
-        <img src="icons/inicio/integrantes/foto-felipe.png" alt="Foto de Felipe, desenvolvedor backend" />
-      </div>
-      <h3 id="Felipe">Felipe Augusto</h3>
-      <p class="subtitulo-equipe">Desenvolvedor Backend - (RM: 563982)</p>
-      <p class="subtitulo-equipe">(1TDSPK)</p>
-      <p class="descricao">
-        Aluno em processo de formação, desenvolvendo Python e a criação do chatbot.
-      </p>
-    </div>
-    <div class="icones-equipe">
-      <a href="https://github.com/FeliipeAugusto" target="_blank" aria-label="GitHub do Felipe">
-        <img src="icons/inicio/redes sociais/icone-github.png" alt="Ícone do GitHub" class="icone-github" />
-      </a>
-      <a href="#" target="_blank" aria-label="LinkedIn do Felipe">
-        <img src="icons/inicio/redes sociais/icone-likedin.png" alt="Ícone do LinkedIn" class="icone-linkedin" />
-      </a>
-      <a href="felipeaugustolferreira@gmail.com" target="_blank" aria-label="Enviar e-mail para Felipe">
-        <img src="icons/inicio/redes sociais/icone-gmail.png" alt="Ícone de e-mail" class="icone-email" />
-      </a>
-    </div>
-  </article>
-
-        <article class="equipe">
-            <div class="conteudo-equipe">
-            <div class="equipe-header"></div>
-            <div class="equipe-avatar">
-                <img src="icons/inicio/integrantes/foto-riquelme.png" alt="Foto de Riquelme, desenvolvedor backend" />
-            </div>
-            <h3 id="riquelme">Riquelme Nascimento</h3>
-            <p class="subtitulo-equipe">Desenvolvedor Backend - (RM: 565468)</p>
-            <p class="subtitulo-equipe">(1TDSPK)</p>
-            <p class="descricao">
-                Aluno em processo de formação, responsável pelo desenvolvimento do site.
-            </p>
-            </div>
-            <div class="icones-equipe">
-            <a href="https://github.com/riquelmee06" target="_blank" aria-label="GitHub do Riquelme">
-                <img src="icons/inicio/redes sociais/icone-github.png" alt="Ícone do GitHub" class="icone-github" />
-            </a>
-            <a href="https://www.linkedin.com/in/riquelme-nascimento-958a7819b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bz54icmBSRcW52UZpCvSuvg%3D%3D" target="_blank" aria-label="LinkedIn do Riquelme">
-                <img src="icons/inicio/redes sociais/icone-likedin.png" alt="Ícone do LinkedIn" class="icone-linkedin" />
-            </a>
-            <a href="[mailto:riquelmenacimento40@gmail.com]" target="_blank" aria-label="Enviar e-mail para Riquelme">
-                <img src="icons/inicio/redes sociais/icone-gmail.png" alt="Ícone de e-mail" class="icone-email" />
-            </a>
-            </div>
-        </article>
-
-        <article class="equipe">
-            <div class="conteudo-equipe">
-            <div class="equipe-header"></div>
-            <div class="equipe-avatar">
-                <img src="icons/inicio/integrantes/foto-kaique.png" alt="Foto de Kaique, desenvolvedor backend" />
-            </div>
-            <h3 id="nome-kaique">Kaique Mascarenhas</h3>
-            <p class="subtitulo-equipe">Desenvolvedor Backend - (RM: 565802)</p>
-            <p class="subtitulo-equipe">(1TDSPK)</p>
-            <p class="descricao">
-                Aluno em formação, responsável pela documentação, banco de dados e desenvolvimento em Java.
-            </div>
-            <div class="icones-equipe">
-            <a href="#" target="_blank" aria-label="GitHub do Kaique">
-                <img src="icons/inicio/redes sociais/icone-github.png" alt="Ícone do GitHub" class="icone-github" />
-            </a>
-            <a href="#" target="_blank" aria-label="LinkedIn do Kaique">
-                <img src="icons/inicio/redes sociais/icone-likedin.png" alt="Ícone do LinkedIn" class="icone-linkedin" />
-            </a>
-            <a href="#" target="_blank" aria-label="Enviar e-mail para Kaique">
-                <img src="icons/inicio/redes sociais/icone-gmail.png" alt="Ícone de e-mail" class="icone-email" />
-            </a>
-            </div>
-        </article>
+      <nav>
+        <div>
+          <img
+            class="icone-header"
+            src="icons/inicio/icone-header-logo.png"
+            alt="Ícone do menu de navegação"
+          />
+          <h1>Aegis Security</h1>
         </div>
- 
-      <div class="nossa-missao">
-        <h3 id="titulo-missao">Nossa Missão</h3>
-        <p>
-            Nosso propósito é claro e urgente: reduzir drasticamente o número de pessoas impactadas por desastres naturais. Queremos estar presentes quando mais importa — oferecendo apoio, informações confiáveis e alertas no momento certo.       
-        </p>
-        <p>
-            Acreditamos que a tecnologia deve estar a serviço da vida. Por isso, estamos dedicando nosso conhecimento e esforço ao desenvolvimento de uma solução que não apenas informe, mas também proteja e salve vidas.        
-        </p>
-        <p>
-            Nosso objetivo é claro: reduzir o número de pessoas afetadas por causas naturais, oferecendo apoio e informação no momento certo.
-        </p>
-      </div>
-    </section>
-  </main>
- 
-  <footer>
-    <p>Copyright © 2025 Aegius Security | Todos os direitos reservados</p>
-    <p>Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000 | Empresa parceira com o grupo FIAP.</p>
-  </footer>
- 
-  <script src="js/padrao.js"></script>
-</body>
- 
+        <ul id="menu-links">
+          <li>
+            <a href="index.html" class="link-menu-ativado link-suave">Início</a>
+          </li>
+          <li><a href="integrantes.html" class="link-suave">Integrantes</a></li>
+          <li><a href="bot_Aegis.html" class="link-suave">Bot Aegis</a></li>
+          <li>
+            <a href="cidades_mais_impactadas.html" class="link-suave"
+              >Cidades mais impactadas</a
+            >
+          </li>
+          <li><a href="faq.html" class="link-suave">FAQ</a></li>
+          <li><a href="contato.html" class="link-suave">Contato</a></li>
+        </ul>
+
+        <div onclick="abrirMenu()" class="menu-hamburguer">
+          <img src="icons/inicio/menu.png" alt="Menu de links" />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="integrantes">
+        <h2 id="titulo-integrantes">Nossa Equipe</h2>
+
+        <div class="container-equipe">
+          <article class="equipe">
+            <div class="conteudo-equipe">
+              <div class="equipe-header"></div>
+              <div class="equipe-avatar">
+                <img
+                  src="icons/inicio/integrantes/foto-felipe.png"
+                  alt="Foto de Felipe, desenvolvedor backend"
+                />
+              </div>
+              <h3 id="Felipe">Felipe Augusto</h3>
+              <p class="subtitulo-equipe">
+                Desenvolvedor Backend - (RM: 563982)
+              </p>
+              <p class="subtitulo-equipe">(1TDSPK)</p>
+              <p class="descricao">
+                Aluno em processo de formação, desenvolvendo Python e a criação
+                do chatbot.
+              </p>
+            </div>
+            <div class="icones-equipe">
+              <a
+                href="https://github.com/FeliipeAugusto"
+                target="_blank"
+                aria-label="GitHub do Felipe"
+              >
+                <img
+                  src="icons/inicio/redes sociais/icone-github.png"
+                  alt="Ícone do GitHub"
+                  class="icone-github"
+                />
+              </a>
+              <a href="#" target="_blank" aria-label="LinkedIn do Felipe">
+                <img
+                  src="icons/inicio/redes sociais/icone-likedin.png"
+                  alt="Ícone do LinkedIn"
+                  class="icone-linkedin"
+                />
+              </a>
+              <a
+                href="felipeaugustolferreira@gmail.com"
+                target="_blank"
+                aria-label="Enviar e-mail para Felipe"
+              >
+                <img
+                  src="icons/inicio/redes sociais/icone-gmail.png"
+                  alt="Ícone de e-mail"
+                  class="icone-email"
+                />
+              </a>
+            </div>
+          </article>
+
+          <article class="equipe">
+            <div class="conteudo-equipe">
+              <div class="equipe-header"></div>
+              <div class="equipe-avatar">
+                <img
+                  src="icons/inicio/integrantes/foto-riquelme.png"
+                  alt="Foto de Riquelme, desenvolvedor backend"
+                />
+              </div>
+              <h3 id="riquelme">Riquelme Nascimento</h3>
+              <p class="subtitulo-equipe">
+                Desenvolvedor Backend - (RM: 565468)
+              </p>
+              <p class="subtitulo-equipe">(1TDSPK)</p>
+              <p class="descricao">
+                Aluno em processo de formação, responsável pelo desenvolvimento
+                do site.
+              </p>
+            </div>
+            <div class="icones-equipe">
+              <a
+                href="https://github.com/riquelmee06"
+                target="_blank"
+                aria-label="GitHub do Riquelme"
+              >
+                <img
+                  src="icons/inicio/redes sociais/icone-github.png"
+                  alt="Ícone do GitHub"
+                  class="icone-github"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/riquelme-nascimento-958a7819b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bz54icmBSRcW52UZpCvSuvg%3D%3D"
+                target="_blank"
+                aria-label="LinkedIn do Riquelme"
+              >
+                <img
+                  src="icons/inicio/redes sociais/icone-likedin.png"
+                  alt="Ícone do LinkedIn"
+                  class="icone-linkedin"
+                />
+              </a>
+              <a
+                href="[mailto:riquelmenacimento40@gmail.com]"
+                target="_blank"
+                aria-label="Enviar e-mail para Riquelme"
+              >
+                <img
+                  src="icons/inicio/redes sociais/icone-gmail.png"
+                  alt="Ícone de e-mail"
+                  class="icone-email"
+                />
+              </a>
+            </div>
+          </article>
+
+          <article class="equipe">
+            <div class="conteudo-equipe">
+              <div class="equipe-header"></div>
+              <div class="equipe-avatar">
+                <img
+                  src="icons/inicio/integrantes/foto-kaique.png"
+                  alt="Foto de Kaique, desenvolvedor backend"
+                />
+              </div>
+              <h3 id="nome-kaique">Kaique Mascarenhas</h3>
+              <p class="subtitulo-equipe">
+                Desenvolvedor Backend - (RM: 565802)
+              </p>
+              <p class="subtitulo-equipe">(1TDSPK)</p>
+              <p class="descricao">
+                Aluno em formação, responsável pela documentação, banco de dados
+                e desenvolvimento em Java.
+              </p>
+            </div>
+
+            <div class="icones-equipe">
+              <a href="#" target="_blank" aria-label="GitHub do Kaique">
+                <img
+                  src="icons/inicio/redes sociais/icone-github.png"
+                  alt="Ícone do GitHub"
+                  class="icone-github"
+                />
+              </a>
+              <a href="#" target="_blank" aria-label="LinkedIn do Kaique">
+                <img
+                  src="icons/inicio/redes sociais/icone-likedin.png"
+                  alt="Ícone do LinkedIn"
+                  class="icone-linkedin"
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+                aria-label="Enviar e-mail para Kaique"
+              >
+                <img
+                  src="icons/inicio/redes sociais/icone-gmail.png"
+                  alt="Ícone de e-mail"
+                  class="icone-email"
+                />
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="nossa-missao">
+          <h3 id="titulo-missao">Nossa Missão</h3>
+          <p>
+            Nosso propósito é claro e urgente: reduzir drasticamente o número de
+            pessoas impactadas por desastres naturais. Queremos estar presentes
+            quando mais importa — oferecendo apoio, informações confiáveis e
+            alertas no momento certo.
+          </p>
+          <p>
+            Acreditamos que a tecnologia deve estar a serviço da vida. Por isso,
+            estamos dedicando nosso conhecimento e esforço ao desenvolvimento de
+            uma solução que não apenas informe, mas também proteja e salve
+            vidas.
+          </p>
+          <p>
+            Nosso objetivo é claro: reduzir o número de pessoas afetadas por
+            causas naturais, oferecendo apoio e informação no momento certo.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © 2025 Aegis Security | Todos os direitos reservados</p>
+      <p>
+        Av. Paulista, 1106 - 7º andar - Bela Vista, São Paulo - SP, 01311-000 |
+        Empresa parceira com o grupo FIAP.
+      </p>
+    </footer>
+
+    <script src="js/padrao.js"></script>
+  </body>
 </html>
- 
